@@ -61,8 +61,8 @@ mvn spring-boot:run
 ```bash
 docker build -t microservice-helloworld .
 ```
-![Descripción de la imagen](img/CodeSpacea.png)
-![Descripción de la imagen](img/CodeSpaceb.png)
+![Descripción de la imagen](microservice-helloworld/img/CodeSpacea.png)
+![Descripción de la imagen](microservice-helloworld/img/CodeSpaceb.png)
 ### Subir a Docker Hub
 
 ```bash
@@ -73,9 +73,9 @@ docker tag microservice-helloworld tu-usuario/microservice-helloworld docker pus
 
 docker run -p 8080:8080 tu-usuario/microservice-helloworld
 
-![Descripción de la imagen](img/docker.png)
-![Descripción de la imagen](img/dockera.png)
-![Descripción de la imagen](img/dockerb.png)
+![Descripción de la imagen](microservice-helloworld/img/docker.png)
+![Descripción de la imagen](microservice-helloworld/img/dockera.png)
+![Descripción de la imagen](microservice-helloworld/img/dockerb.png)
 
 
 ## Built With
